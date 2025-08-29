@@ -1,0 +1,30 @@
+.button{
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  transition: transform 0.15s;
+  text-decoration: none;
+
+}
+.button:hover{
+  transform: translateY(-10px);
+}
+.button:active{
+  transform: translateY(-0);
+}
+
+.button.outline{
+  background: #fff;
+  color: #111;
+  border: 2px solid #111;
+
+}
+.cta-row{
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
